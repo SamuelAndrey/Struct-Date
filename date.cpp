@@ -123,24 +123,6 @@ int main() {
     } else if((now.bln <= 7 && now.bln % 2 != 0) || (now.bln >= 8 && now.bln % 2 == 0)) {
         maks_tgl = 31;
     }
-    // if(now.bln % 2 == 0 && now.bln < 8) {
-    //     maks_tgl = 30;
-    //     if(now.bln == 2) {
-    //         if(now.thn % 4 == 0) {
-    //             maks_tgl = 29;
-    //         } else {
-    //             maks_tgl = 28;
-    //         }
-    //     }
-    // } else {
-    //     maks_tgl = 31;
-    // }
-
-    // if(now.bln % 2 == 0 && now.bln > 7) {
-    //     maks_tgl = 31;
-    // } else {
-    //     maks_tgl = 30;
-    // }
 
     // pengecekan tanggal yang valid
     if(now.tgl > maks_tgl || now.bln > 12) {
